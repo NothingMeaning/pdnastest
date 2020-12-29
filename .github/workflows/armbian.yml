@@ -37,8 +37,8 @@ jobs:
       - name: Checkout armbian
         uses: actions/checkout@v2
         with:
-          repository: ${{ARMBIAN_BUILD_REPO}}
-          ref: ${{ARMBIAN_BUILD_BRANCH}}
+          repository: env.ARMBIAN_BUILD_REPO
+          ref: env.ARMBIAN_BUILD_BRANCH
           path: armbian
           fetch-depth: 1
 
