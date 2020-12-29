@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  ARMBIAN_BUILD_REPO: https://github.com/armbian/build.git
+  ARMBIAN_BUILD_REPO: armbian/build
   ARMBIAN_BUILD_BRANCH: v2020.11
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
