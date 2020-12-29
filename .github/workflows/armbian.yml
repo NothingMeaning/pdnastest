@@ -34,7 +34,7 @@ jobs:
         run: |
           sudo apt update && sudo apt-get install build-essential gcc
 
-      - name Checkout armbian
+      - name: Checkout armbian
         uses: actions/checkout@v2
         with:
           repository: ${{ARMBIAN_BUILD_REPO}}
