@@ -39,7 +39,7 @@ jobs:
         with:
           repository: ${{ env.ARMBIAN_BUILD_REPO }}
           ref: ${{ env.ARMBIAN_BUILD_BRANCH }}
-          path: armbian
+          path: out/armbian
           fetch-depth: 1
 
       # Runs a set of commands using the runners shell
